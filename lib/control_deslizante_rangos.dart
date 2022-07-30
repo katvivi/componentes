@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 class ControlDeslizanteRangosWidget extends StatefulWidget {
-  const Widget({Key? key}) : super(key: key);
+  const ControlDeslizanteRangosWidget({Key? key}) : super(key: key);
 
   @override
   State<ControlDeslizanteRangosWidget> createState() => _ControlDeslizanteRangosWidgetState();

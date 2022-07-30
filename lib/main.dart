@@ -7,6 +7,10 @@ import 'barra_app_inferior.dart';
 import 'barra_navegacion.dart';
 import 'barras_notificaciones.dart';
 import 'boton_contorno.dart';
+import 'boton_flotantes.dart';
+import 'boton_relieve.dart';
+import 'boton_texto.dart';
+import 'campos_texto.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,6 +34,10 @@ class MyApp extends StatelessWidget {
         '/barraNavegacion':(context) => const BarraNavegacion(),
         '/barraNotificaciones':(context) => const BarrasNotificacionesWidget(),
         '/barraContorno':(context) => const BotonContorno(),
+        '/botonFlotantes':(context) => const BotonFlotamte(),
+        '/botonRelieve':(context) => const BotonRelieve(),
+        '/botonTexto':(context) => const BotonTexto(),
+        '/CampoTexto':(context) => const CamposTextoWidget(),
         
       },
       theme: ThemeData(

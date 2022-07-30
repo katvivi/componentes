@@ -49,6 +49,30 @@ class _MenuState extends State<Menu> {
             onTap: (){
               Navigator.pushNamed(context, '/barraContorno');
             },
+          ),
+          GestureDetector(
+            child: Text('Boton Flotantes'),
+            onTap: (){
+              Navigator.pushNamed(context, '/botonFlotantes');
+            },
+          ),
+          GestureDetector(
+            child: Text('Boton Relieve'),
+            onTap: (){
+              Navigator.pushNamed(context, '/botonRelieve');
+            },
+          ),
+          GestureDetector(
+            child: Text('Boton Texto'),
+            onTap: (){
+              Navigator.pushNamed(context, '/botonTexto');
+            },
+          ),
+          GestureDetector(
+            child: Text('Campos Texto'),
+            onTap: (){
+              Navigator.pushNamed(context, '/CampoTexto');
+            },
           )
         ],
       ),
